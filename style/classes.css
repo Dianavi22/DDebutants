@@ -1,0 +1,245 @@
+            @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+            @font-face {
+                font-family: 'akaPosse';
+                src: url('../fonts/akaposse/akaPosse.ttf');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
+            * {
+                font-family: Montserrat, cursive;
+            }
+            
+            #top-page {
+                height: 80vh;
+                padding: 25px;
+            }
+            
+            #top-page-player {
+                height: 80vh;
+                padding: 25px;
+            }
+            
+            #top-page-master {
+                height: 80vh;
+                padding: 25px;
+            }
+            
+            body {
+                margin: 0px;
+                background-color: #c0b3b3ad;
+            }
+            /* header */
+            
+            header.header {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+            }
+            
+            header.header img {
+                width: 150px;
+            }
+            
+            nav.nav {
+                display: flex;
+                text-decoration: none;
+                list-style: none;
+                width: 200px;
+                margin-left: 30px;
+                justify-content: space-between;
+            }
+            
+            nav.nav li {
+                color: white;
+                text-decoration: none;
+            }
+            /* landing page */
+            
+            .langing-page {
+                padding: 20px 50px;
+            }
+            
+            .big-title {
+                color: white;
+                font-size: 80px;
+                font-weight: 100;
+                font-family: akaPosse;
+            }
+            /* services */
+            
+            .services {
+                display: flex;
+                color: black;
+                justify-content: space-between;
+                margin: 50px;
+            }
+            
+            .delivery-icon {
+                font-size: 50px;
+            }
+            
+            .delivery-icon {
+                font-size: 50px;
+                color: #b1021c;
+            }
+            
+            .service-item {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .service-details {
+                font-size: 20px;
+                width: 200px;
+                text-align: center;
+            }
+            /* ref */
+            
+            .best-items {
+                margin: 50px;
+            }
+            
+            .section-title {
+                font-size: 50px;
+                font-family: akaPosse, cursive;
+                font-weight: 100;
+                position: relative;
+            }
+            
+            .section-title::before {
+                content: "";
+                position: absolute;
+                background-color: #b1021c;
+                width: 50px;
+                height: 7px;
+                bottom: 0;
+            }
+            
+            .best-ref {
+                background-color: #b1021c;
+                min-height: 500px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .ref-box {
+                background-size: cover;
+                background-position: center;
+                min-width: 350px;
+                height: 500px;
+                flex: 1;
+                position: relative;
+            }
+            
+            #ref1 {
+                background-image: url(../images/critical-role.jpg);
+            }
+            
+            .ref2 {
+                background-image: url(../images/vox-machina.png);
+            }
+            
+            .ref3 {
+                background-image: url(../images/aventure.PNG);
+            }
+            
+            .ref4 {
+                background-image: url(../images/ref-alphacast.PNG);
+            }
+            
+            .ref-details {
+                background-color: #ffffffad;
+                position: absolute;
+                bottom: 0;
+                width: 91.2%;
+                padding: 5px 20px;
+            }
+            
+            .ref-name {
+                font-size: 22px;
+                font-weight: 800;
+                color: black;
+                line-height: 3px;
+            }
+            
+            .ref-description {
+                font-weight: 600;
+                color: black;
+                line-height: 20px;
+                margin-right: 10px;
+            }
+            
+            .lien {
+                text-decoration-line: none;
+            }
+            /* campagnes */
+            
+            .all-adventures {
+                margin: 100px;
+            }
+            
+            .adventure-grid {
+                display: grid;
+                min-height: 150vh;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 400px);
+            }
+            
+            .adventure-grid1 {
+                background-image: url(../images/strahd.PNG);
+            }
+            
+            .adventure-grid2 {
+                background-image: url(../images/tombeau.PNG);
+            }
+            
+            .adventure-grid3 {
+                background-image: url(../images/saltmarsh.jpg);
+            }
+            
+            .adventure-grid4 {
+                background-image: url(../images/waterdeep.PNG);
+            }
+            /* pied de page */
+            
+            footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 20px 100px;
+                font-weight: 600;
+            }
+            
+            .padding-footer {
+                padding-top: 10px
+            }
+            
+            footer a.ml {
+                text-decoration: none;
+                color: black;
+            }
+            /* tableaux */
+            
+            table {
+                border: medium solid #b1021c;
+                border-collapse: collapse;
+                width: 100px;
+            }
+            
+            th {
+                width: 100%;
+                padding: 10px;
+            }
+            
+            td {
+                border: thin solid #b1021c;
+            }
+            /* positions images */
+            
+            .style-img {
+                width: 20%;
+                float: right;
+                box-shadow: 10px 5px 5px black;
+            }
